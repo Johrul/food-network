@@ -128,7 +128,7 @@ p{
 #customer .overlay{
     padding: 4%;
     background-color: rgba(0,0,0, .7);
-    height: 50vh;
+    min-height: 50vh;
 }
 #customer > .overlay p{
     text-align: center;
