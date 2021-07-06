@@ -8,7 +8,12 @@
 /* Color for laypot test */
 
 /* General Area */
-
+*{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     box-sizing: border-box;
@@ -20,7 +25,11 @@ h1{
     color: #575757;
 }
 h2{
-    font-size: 50px;
+    font-size: 42px;
+    color: #575757;
+}
+h3{
+    font-size: 36px;
     color: #575757;
 }
 h1 span{
@@ -72,12 +81,34 @@ p{
 }
 
 /* Recipe */
-
-#recipe{
-    background-image: url();
-    background-repeat: no-repeat;
+#recipe #h{
+    text-align: center;
+    width: 60%;
+}
+#recipe h2{
+    text-align: center;
 }
 
+#recipe .basis{
+    padding: 10px;
+}
+#recipe .basis p{
+    padding:0 20px 20px 20px;
+}
+#recipe .basis h3{
+    padding:0 20px 0 20px;
+}
+.rcard{
+    background-color: white;
+    /* border: 2px solid black; */
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0px 20px 3px rgba(0,0,0, .2);
+}
+.rcard img{
+    border-radius: 20px;
+    padding: 20px;
+}
 /* Customer */
 
 #customer{
@@ -94,3 +125,14 @@ p{
 }
 
 /* Footer */
+#footer{
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+#footer #footer-food{
+    color: orange;
+}
+#footer #footer-slogan{
+    color: whitesmoke;
+}
