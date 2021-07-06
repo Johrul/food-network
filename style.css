@@ -112,10 +112,30 @@ p{
 /* Customer */
 
 #customer{
-    background-image: url();
+    background-image: url("./images/restaurant.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
-
+#customer .container{
+    box-shadow: 0 0 20px 3px rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+}
+#customer .overlay{
+    padding: 4%;
+    background-color: rgba(0,0,0, .7);
+    height: 50vh;
+}
+#customer > .overlay p{
+    text-align: center;
+    color: whitesmoke;
+}
+#customer h3{
+    padding-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
 
 /* Contact */
 
