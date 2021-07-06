@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -96,10 +98,28 @@
         <div class="container flexwrap">
             <div class="basis">
                 <h3>Contact Address</h3>
-                
+                <address>
+                    Shah Makhdum, Rajshahi <br><br>
+                  <a class="address" href="mailto:johrulsbl@gmail.com"><i class="fa fa-envelope" aria-hidden="true"> </i>&nbsp; &nbsp;johrulsbl@gmail.com</a><br><br>
+                  <a class="address" href="tel:+8801731376664"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+8801731376664</a>
+                </address>
             </div>
-            <div class="basis tgreen">
-                <h3>Message Now</h3>
+            <div class="basis">
+                <h3><i class="fa fa-envelope"></i> Message Now</h3>
+
+                <div class="form-content">
+        			<input class="textbox" type="text" name="name" placeholder="Your Name"  required/>
+        			<br> <br>
+        			<input class="textbox" type="text" name="phone" placeholder="Phone or Mobile number" required />
+        			 <br><br>
+        			 <textarea class="textbox" rows="4" placeholder="Message" required ></textarea>
+        			 <br>
+        			 <br>
+        			 <input id="jsend" type="submit" name="send" value="Send Now" />
+                     <br>
+                     <br>
+        			
+        		</div>
 
             </div>
         </div>

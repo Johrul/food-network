@@ -20,6 +20,9 @@ body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-size: 60px;
     color: #575757;
@@ -140,9 +143,55 @@ p{
 /* Contact */
 
 #contact{
-    background-image: url();
+    background-image: url("./images/background/7.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
+
+#contact{
+    text-align: center;
+    padding: 50px 20px;
+}
+#contact h3{
+    background: -webkit-linear-gradient(orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.address{
+    background: -webkit-linear-gradient(orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.textbox{
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 3px rgba(0,0,0, .2);
+    font-size: 18px;
+    color: #333;
+}
+#jsend{
+    padding: 10px 30px;
+    background-image: linear-gradient(orange,red);
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+}
+#jsend:hover{
+    color: gold;
+}
+
+
+
 
 /* Footer */
 #footer{
@@ -156,3 +205,4 @@ p{
 #footer #footer-slogan{
     color: whitesmoke;
 }
+
