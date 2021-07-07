@@ -126,7 +126,7 @@ p{
     border-radius: 20px;
 }
 #customer .overlay{
-    padding: 4%;
+    padding: 150px 0;
     background-color: rgba(0,0,0, .7);
     min-height: 50vh;
 }
