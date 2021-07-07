@@ -172,7 +172,7 @@ p{
     border-radius: 10px;
     outline: none;
     border: none;
-    box-shadow: 0 0 5px 3px rgba(0,0,0, .2);
+    box-shadow: 0 0 10px 5px rgba(0,0,0, .2);
     font-size: 18px;
     color: #333;
 }
